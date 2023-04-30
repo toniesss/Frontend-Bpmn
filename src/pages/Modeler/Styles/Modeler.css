@@ -1,0 +1,193 @@
+/*Pages Modeler Alert*/
+.alert {
+    position: fixed;
+    margin-top: 20px;
+    width: 400px;
+}
+/*********************************************************/
+
+/*Pages BPMN*/
+.bpmn{
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+  }
+  .properties {
+    width: 15%;
+    min-width: 200px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 100%;
+    margin-top: 0px;
+    overflow: auto;
+    background-color: #f8f8f8;
+    border-left: 1px solid #ccc;
+}
+  #container {
+    height: 98vh;
+    width: 97.6%;
+    position: relative;
+    background-color: #ffffff;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 10px;
+    padding-top: 0px;
+    padding-right: 0px;
+    z-index: 0;
+}
+  .allbutton{
+    width: 80%;
+    display: inline-block;
+    bottom: 2%;
+    left: 35%;
+    position: fixed;
+  }
+  .button {
+    padding: 5px 16px 5px 16px;
+    margin-left: 20px;
+    width: 150px;
+    height: 30px;
+    border: none;
+    font-size: 15px;
+    border-radius: 3px;
+    color: #f8f8f8;
+    background-color: #0d6efd;
+  }
+  .button:hover{
+    background-color: rgb(15, 87, 182);
+  }
+  .button:active {
+    opacity: 0.6;
+  }
+  .setdeploy {
+    width: 250px;
+    height: 165px;
+    border: 1.2px solid #ccc;
+    position: fixed;
+    bottom: 5.3%;
+    left: 62.5%;
+    box-shadow: 0.25px 0.25px 0.25px 0.1px 
+  }
+  .Daigarm {
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .DaigarmName {
+    margin-top: 0px;
+    margin-left: 10px;
+    font-size: 13px;
+    margin-bottom: 0px;
+  }
+  .inputname {
+  margin-left: 13px;
+  margin-top: 8px;
+  width: 222px;
+  height: 30px;
+  border: 1.2px solid #ccc;
+  }
+  .BTdeploy{
+    width: 222px;
+    height: 35px;
+    margin-left: 13px;
+    justify-content: center;
+    margin-top: 10px;
+    background-color: #0d6efd;
+    border: none;
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+  }
+  .close{
+    background-color: #ffffff;
+    border: none;
+    margin-left: 225px;
+  }
+  .setde{
+    width: 220px;
+    height: 50px;
+    position: fixed;
+    bottom: 153.50px;
+    left: 529px;
+  }
+  .buttonback{
+    position: absolute;
+  }
+  .setback{
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    top: 0px;
+    left: 18px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+  }
+  .buttonback{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    font-size: 40px;
+    color: #0d6efd;
+    background-color: #ffffff;
+    border: none;
+  }
+  .buttonback:hover{
+    background-color: rgb(15, 87, 182);
+  }
+  .alertdeploy{
+    position: fixed;
+    z-index: 2;
+    margin-left: 520px;
+  }
+  .custom-file-input {
+    color: transparent;
+  }
+  .custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+  }
+  .custom-file-input::before {
+    width: 150px;
+    height: 30px;
+    border-radius: 3px;
+    padding: 5px 20px 5px;
+    margin-left: 20px;
+    border: none;
+    color: #f8f8f8;
+    background-color: #0d6efd;
+    content: 'Upload File';
+    text-align: center;
+    display: inline-block;
+    outline: none;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  .custom-file-input:hover::before {
+    background-color: #0d56c5;
+  }
+  .custom-file-input:active {
+    outline: 0;
+  }
+  .custom-file-input:active::before {
+    background-color: #0d56c5;
+  }
+  .Spinnerbpmn{
+    position: absolute;
+    top: 50%;
+    left: 50%;  
+  }
+  .bjsl-button.bjsl-button-error{
+  position: absolute;
+  left: 10%; 
+  bottom: 3.5%;
+  }
+  .bjsl-button.bjsl-button-inactive{
+    position: absolute;
+    left: 10%; 
+    bottom: 3.5%;
+  }

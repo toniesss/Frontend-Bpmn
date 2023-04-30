@@ -1,0 +1,165 @@
+.Detailbox-Leaveform {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 95%;
+  margin-top: 2.5%;
+  margin-left: 2.5%;
+  height: 80vh;
+  background-color: #555b6e;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.Detailbox-Leaveformleft {
+  width: 25%;
+  background-color: #2ec4b6;
+}
+.Detailbox-Leaveformright {
+  width: 75%;
+  height: 98.5%;
+  margin-top: 0.35%;
+  margin-left: 0.3%;
+  margin-right: 0.3%;
+  background-color: #ffffff;
+}
+.DetailbusinessKey-Leaveform img {
+  display: inline-block;
+  margin-left: 2%;
+  margin-top: 3%;
+}
+.DetailbusinessKey-Leaveform h1 {
+  display: inline-block;
+  margin-left: 5%;
+  font-size: 30px;
+}
+.DetailLeaveform-firstname {
+  display: inline-block;
+  width: 40%;
+  margin-left: 6.5%;
+  margin-top: 5%;
+}
+.DetailLeaveform-lastname {
+  display: inline-block;
+  width: 40%;
+  margin-left: 7%;
+}
+.DetailLeaveform-phone {
+  display: block;
+  width: 87%;
+  margin-left: 6.5%;
+  margin-top: 1%;
+}
+.DetailLeaveform-position {
+  display: block;
+  width: 87%;
+  margin-left: 6.5%;
+  margin-top: 1%;
+}
+.DetailLeaveform-department {
+  display: block;
+  width: 87%;
+  margin-left: 6.5%;
+  margin-top: 1%;
+}
+.textDetailLeaveform-lf h1 {
+  display: block;
+  font-size: 1.2rem;
+  padding-left: 5%;
+  padding-top: 1%;
+  margin: 0;
+}
+.Detailline-lf-1 {
+  position: relative;
+  display: block;
+  left: 30px;
+  width: 95%;
+  margin: 0;
+  padding-bottom: 10px;
+}
+.DetailLeaveform-cause {
+  display: block;
+  width: 87%;
+  margin-left: 6.5%;
+}
+.DetailLeaveform-days {
+  display: inline-block;
+  width: 40%;
+  margin-left: 6.5%;
+  margin-top: 1%;
+}
+.DetailLeaveform-hours {
+  display: inline-block;
+  width: 40%;
+  margin-left: 7%;
+}
+.DetailLeaveform-message {
+  display: block;
+  width: 87%;
+  margin-left: 6.5%;
+  margin-top: 1%;
+}
+.DetailLeaveform-btnback {
+  margin-left: 2.5%;
+  margin-top: 1.5%;
+  width: 6%;
+  height: 4%;
+  border: none;
+  border-radius: 10px;
+  border: 2px solid #023e8a;
+}
+.DetailLeaveform-btnback:hover {
+  background-color: #023e8a;
+  color: white;
+}
+.btActiond {
+  display: block;
+  margin-top: 2%;
+  margin-left: 75%;
+}
+.btApprov-detail {
+  border: 1px solid #2eeb08;
+  background-color: #2eeb08;
+  border-radius: 5px;
+  color: #fff;
+  margin-right: 5%;
+  width: 35%;
+  height: 30px;
+}
+.btApprov-detail:hover {
+  background-color: #38b000;
+  border: none;
+}
+.btRejrct-detail {
+  border: 1px solid #ff0000;
+  background-color: #ff0000;
+  border-radius: 5px;
+  color: #fff;
+  width: 35%;
+  height: 30px;
+}
+.btRejrct-detail {
+  background-color: #d90429;
+  border: none;
+}
+@media screen and (max-width: 800px) {
+  .DetailbusinessKey-Leaveform h1 {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .btActiond{
+    margin: 0;
+  }
+  .btApprov-detail {
+    display:block;
+    margin-top:  20px;
+    margin-left: 6.5%;
+    width: 87%;
+  }
+  .btRejrct-detail{
+    display: block;
+    margin-top:  20px;
+    margin-left: 6.5%;
+    width: 87%;
+  }
+}

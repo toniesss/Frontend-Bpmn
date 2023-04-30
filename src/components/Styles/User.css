@@ -1,0 +1,20 @@
+#basic-nav-dropdown{
+  color: #ffffff;
+  background: none;
+}
+div.nav-item.dropdown{
+  background:none;
+}
+a.dropdown-toggle.show.nav-link:hover{
+background:none;
+}
+.dropdown-menu[data-bs-popper] {
+  top: auto !important;
+  left: auto !important;
+  margin-top: 0 !important;
+}
+.dropdown-menu.show {
+  right: 0;
+  display: block;
+  margin-top: var(--bs-dropdown-spacer);
+}

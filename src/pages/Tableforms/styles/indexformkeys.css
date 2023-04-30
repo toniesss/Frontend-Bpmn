@@ -1,0 +1,44 @@
+.box-formlist{
+    width: 100%;
+    height: 93.7vh;
+    overflow-y: auto;
+}
+.section1-formkeys{
+    padding-top: 20px;
+}
+.section2-formkeys{
+    padding-top: 20px;
+    margin-left: 90%;
+}
+.section2-formkeys button{
+    background-color: #25a244;
+    border: none;
+    border-radius: 10px;
+    z-index: 1;
+    cursor: pointer;
+    width: 75%;
+    height: 40px;
+    font-size: 15px;
+    color: white;
+}
+.section3-formkeys{
+    width: 95%;
+    margin-left: 2.5%;
+    margin-top: 20px;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.body-formkeys{
+    width: 100%;
+    padding: 4px;
+}
+
+@media only screen and (max-width:768px) {
+    .section2-formkeys{
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+  }
+  

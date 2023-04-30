@@ -1,0 +1,59 @@
+.box-mytasks{
+    width: 100%;
+    height: 93.7vh;
+    overflow-y: auto;
+}
+/*.section1-mytasks h1{
+    position: absolute;
+    padding-left: 2.5%;
+    color: #fff;
+    top: 1%;
+    font-size: 2rem;
+}*/
+.section2-mytasks{
+    padding-top:20px ;
+}
+.section3-mytasks{
+    padding-top: 20px;
+    margin-left: 90%;
+    padding-bottom: 20px;
+}
+.Approvemultiple{
+    background-color: #25a244;
+    border: none;
+    border-radius: 10px;
+    z-index: 1;
+    cursor: pointer;
+    width: 75%;
+    height: 40px;
+    font-size: 15px;
+    color: white;
+}
+.Approvemultiple:hover{
+    background: #3a7d44;
+}
+.section4-mytasks {
+    width: 95%;
+    margin-left: 2.5%;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .body-mytasks{
+      width: 100%;
+      padding: 4px;
+  }
+  
+  @media only screen and (max-width: 1200px) {
+    .section3-mytasks{
+      margin: 0;
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+ /* @media screen and (max-width: 768px){
+    .section1-mytasks h1{
+        display: none;
+      }
+  }*/

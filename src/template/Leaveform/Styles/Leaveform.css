@@ -1,0 +1,142 @@
+.box-Leaveform {
+  display: block;
+  margin-top: 3%;
+  margin-left: 2.5%;
+  width: 95%;
+  height: auto;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0.5rem 0.5rem #3a5a40, -0.5rem -0.5rem #95d5b2;
+}
+
+.businesskey-Leaveform h1 {
+  font-size: 1.5rem;
+  padding-left: 3%;
+  padding-top: 10px;
+  margin: 0;
+}
+
+.textdital-lf h1 {
+  font-size: 1.5rem;
+  padding-left: 3%;
+  margin: 0;
+}
+
+.line-lf-1,
+.line-lf-2 {
+  display: block;
+  width: 96%;
+  margin: 0;
+  padding-bottom: 10px;
+  margin-left: 2%;
+}
+.firstname-Leaveform{
+  display: inline-block;
+  width: 45%;
+  padding-left: 5%;
+  padding-bottom: 10px;
+  border: 0;
+}
+.lastname-Leaveform{
+  display: inline-block;
+  width: 50%;
+  padding-left: 5%;
+}
+.phone-Leaveform,
+.position-Leaveform,
+.department-Leaveform,
+.select-Leaveform,
+.message-Leaveform {
+  display: block;
+  position: relative;
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 10px;
+}
+.phone-Leaveform,
+.position-Leaveform,
+.department-Leaveform,
+.select-Leaveform {
+  width: 100%;
+}
+
+.checkbox-day-Leaveform {
+  display: inline-block;
+  width: 25%;
+  padding-left: 5%;
+  padding-bottom: 10px;
+}
+
+.checkbox-hours-Leaveform {
+  display: inline-block;
+  padding-bottom: 10px;
+}
+.start-date-Leaveform,
+.end-date-Leaveform{
+  display: inline-block;
+  position: relative;
+  width: 30%;
+  padding-left: 5%;
+  padding-bottom: 10px;
+}
+.date-time-Leaveform{
+  display: inline-block;
+  position: relative;
+  width: 30%;
+  padding-left: 5%;
+  padding-bottom: 10px;
+}
+.start-time-Leaveform,
+.end-time-Leaveform {
+  display: inline-block;
+  position: relative;
+  width: 32.5%;
+  padding-left: 5%;
+  padding-bottom: 10px;
+}
+.submit-Leaveform {
+  display: block;
+  position: relative;
+  margin-left: 90.1%;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .firstname-Leaveform,
+  .lastname-Leaveform{
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    width: 50%;
+  }
+  .phone-Leaveform,
+  .position-Leaveform,
+  .department-Leaveform,
+  .select-Leaveform,
+  .date-time-Leaveform,
+  .message-Leaveform {
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+  }
+
+  .start-date-Leaveform,
+  .end-date-Leaveform,
+  .date-time-Leaveform,
+  .start-time-Leaveform,
+  .end-time-Leaveform {
+    width: 100%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .submit-Leaveform{
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 2%;
+    text-align: center;
+  }
+}

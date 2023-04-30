@@ -1,0 +1,181 @@
+/*template Leaveform*/
+.box-Parkingform{
+  display: block;
+  margin-top: 1.5%;
+  margin-left: 2.5%;
+  width: 95%;
+  height: 85vh;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0.5rem 0.5rem #3a5a40, -0.5rem -0.5rem #95d5b2;
+  }
+  .businesskey-Parkingform h1{
+    position: relative;
+    display: block;
+    font-size: 1.5rem;
+    padding-left: 5%;
+    padding-top: 10px;
+    margin: 0;
+  }
+  .textdital-pf h1{
+    position: relative;
+    display: block;
+    font-size: 1.5rem;
+    padding-left: 5%;
+    margin: 0;
+  }
+  .line-pf-1{
+    position: relative;
+    display: block;
+    left: 30px;
+    width: 96%;
+    margin: 0;
+    padding-bottom: 10px;
+  }
+  .line-pf-2{
+    position: relative;
+    display: block;
+    left: 30px;
+    width: 96%;
+    margin: 0;
+    padding-bottom: 10px;
+  }
+  .firstname-Parkingform{
+    position: relative;
+    display: inline-block;
+    width: 45%;
+    padding-left: 120px;
+    padding-bottom: 10px;
+    border: 0;
+  }
+  .lastname-Parkingform{
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    padding-left: 120px;
+  }
+  .phone-Parkingform{
+    display: block;
+    position: relative;
+    width: 95%;
+    padding-left: 120px;
+    padding-bottom: 10px;
+  }
+  .position-Parkingform{
+    display: block;
+    position: relative;
+    width: 95%;
+    padding-left: 120px;
+    padding-bottom: 10px;
+  }
+  .department-Parkingform{
+    display: block;
+    position: relative;
+    width: 95%;
+    padding-left: 120px;
+    padding-bottom: 10px;
+  }
+  .select-Parkingform{
+    display: block;
+    position: relative;
+    width: 95%;
+    padding-left: 120px;
+    padding-bottom: 20px;
+  }
+  .Vehicle-Make{
+    display: inline-block;
+    position: relative;
+    width: 31.6%;
+    padding-left: 120px;
+    padding-bottom: 20px;
+  }
+  .Vehicle-MY{
+    display: inline-block;
+    position: relative;
+    width: 31.6%;
+    padding-left: 2.2%;
+    padding-bottom: 20px;
+  }
+  .Vehicle-Color{
+    display: inline-block;
+    position: relative;
+    width: 31.6%;
+    padding-left: 2.2%;
+    padding-bottom: 20px;
+  }
+
+  .vehicle{
+    display: inline-block;
+    position: relative;
+    width: 47.5%;
+    padding-left: 120px;
+    padding-bottom: 20px;
+  }
+  .Numbercar{
+    display: inline-block;
+    position: relative;
+    width: 47.5%;
+    padding-left: 2.2%;
+    padding-bottom: 20px;
+  }
+  .checkbox-day-Parkingform{
+    display: inline-block;
+    position: relative;
+    width: 12%;
+    padding-left: 120px;
+    padding-bottom: 10px;
+  }
+  .checkbox-hours-Parkingform{
+    display: inline-block;
+    position: relative;
+    padding-left: 2.2%;
+    padding-bottom: 10px;
+  }
+  .start-date-Parkingform{
+    display: inline-block;
+    position: relative;
+    width: 25% ;
+    padding-left: 120px;
+    padding-bottom: 10px;
+  }
+  .end-date-Parkingform{
+    display: inline-block;
+    position: relative;
+    width: 20% ;
+    padding-left: 2.2%;
+    padding-bottom: 10px;
+  }
+  .date-time-Parkingform{
+    display: inline-block;
+    position: relative;
+    width: 25% ;
+    padding-left: 120px;
+    padding-bottom: 10px;
+  }
+  .start-time-Parkingform{
+    display: inline-block;
+    position: relative;
+    width: 20% ;
+    padding-left: 2.2%;
+    padding-bottom: 10px;
+  }
+  .end-time-Parkingform{
+    display: inline-block;
+    position: relative;
+    width: 20% ;
+    padding-left: 2.2%;
+    padding-bottom: 10px;
+  }
+  .message-Parkingform{
+  display: block;
+  position: relative;
+  width: 95%;
+  padding-left: 120px;
+  }
+  .submit-Parkingform{
+    display: block;
+    position: relative;
+    padding-left:90.5%;
+   
+  }
+  /*******************************************************/

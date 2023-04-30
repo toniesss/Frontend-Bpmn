@@ -1,0 +1,87 @@
+/*Pages Workflowlist Fiterworkflow*/
+.boxfilersearch-workflow {
+  display: grid;
+  background-color: #fff;
+  margin-left: 2.5%;
+  width: 95%;
+  height: 200px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 4px, #386641 0px 7px 13px -3px,
+    #386641 0px -3px 0px inset;
+}
+.fliter-name-workflowlist {
+  display: inline-block;
+  margin-left: 5%;
+  width: 20%;
+}
+.seacrh-workflow {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  border-bottom: 1px solid #2ec4b6;
+}
+.textfilterlogoworkflowlisk {
+  position: relative;
+  top: 5%;
+  margin-left: 2%;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 600;
+  text-shadow: 2px 2px 8px #2ec4b6;
+}
+.textfilter-workflowlist {
+  color: #2ec4b6;
+}
+.btnfilterworkflowlist {
+    display: block;
+    padding: 10px;
+    margin-left: 75%;
+}
+.btncancelworkflowlist {
+  background-color: #ffea00;
+  border: none;
+  cursor: pointer;
+  width: 37.5%;
+  height: 40px;
+  color: black;
+  font-size: 15px;
+  margin-right: 30px;
+  border-radius: 10px;
+}
+.btnsearchworkflowlist {
+  background-color: #3a86ff;
+  border: none;
+  cursor: pointer;
+  width: 37.5%;
+  height: 40px;
+  font-size: 15px;
+  color: white;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .boxfilersearch-workflow {
+    height: auto;
+  }
+  .fliter-name-workflowlist{
+    display: block;
+    width: 90%;
+    margin-left:5%;
+    margin-bottom: 10px;
+  }
+  .btnfilterworkflowlist {
+    text-align:center;
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .boxfilersearch-workflow {
+    height: auto;
+  }
+  .btnfilterworkflowlist {
+    text-align:center;
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,29 @@
+.table-myforms{
+  height: 45vh;
+  border-collapse: collapse;
+  overflow-x: auto;
+  }
+  .table-myforms td{
+    padding-top: 20px;
+  }
+  td.bt-group-myforms1{
+    padding-bottom: 20px;
+    padding-top: 10px;
+  }
+  .deleteActionmyforms{
+    border: none;
+    background: none;
+    font-size: 25px;
+    margin-right: 60%;
+  }
+  .buttungodetailmyforms{
+    font-size: 20px;
+  }
+
+  @media screen and (max-width: 768px){
+    .table-myforms{
+      overflow-x: auto;
+    }
+  }
+    
+  

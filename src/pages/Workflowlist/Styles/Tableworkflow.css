@@ -1,0 +1,42 @@
+.table-workflow {
+  height: 48vh;
+  border-collapse: collapse;
+  overflow-x: auto;
+}
+.table-workflow td {
+  padding-bottom: 0px;
+  padding-top: 20px;
+}
+td.bt-group-workflowlist {
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+.edit-workflowlist {
+  font-size: 24px;
+  border: none;
+  color: black;
+  margin-right: 5%;
+}
+.delete-workflow {
+  border: none;
+  background: none;
+  font-size: 24px;
+}
+.delete-workflow:hover {
+  color: red;
+}
+.spinner {
+  width: 5rem;
+  height: 5rem;
+}
+
+@media screen and (max-width: 1500px) {
+  .table-workflow th {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .table-workflow {
+    overflow-x: auto;
+  }
+}

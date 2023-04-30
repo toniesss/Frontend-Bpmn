@@ -1,0 +1,82 @@
+.table-mytasks{
+    height: 45vh;
+    border-collapse: collapse;
+    overflow-x: auto;
+  }
+  .table-mytasks td{
+    padding-bottom: 0px;
+    padding-top: 20px;
+  }
+  td.bt-group-mytasks{
+    padding-top: 10px;
+    padding-bottom: 15px;
+  }
+  #bt-approve-mytasks{
+    border: 1px solid #2eeb08;
+    background-color: #2eeb08;
+    border-radius: 5px;
+    color: #fff;
+    margin-right: 5%;
+    width: 25%;
+  }
+  #bt-approve-mytasks:hover{
+    background-color: #38b000;
+    border: none;
+  }
+  #bt-rejaect-mytasks{
+    border: 1px solid #ff0000;
+    background-color: #ff0000;
+    border-radius: 5px;
+    color: #fff;
+    margin-right: 5%;
+    width: 25%;
+  }
+  #bt-rejaect-mytasks:hover{
+    background-color: #d90429;
+    border: none;
+  }
+  #bt-delete-mytasks{
+    border: none;
+    background:none;
+    font-size: 24px;
+  }
+  #bt-delete-mytasks:hover{
+    color: #ff0000;
+  }
+  .notification-icon{
+    position: relative;
+    bottom: 10px;
+    background-color: red;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 50%;
+  }
+  .edit-mytasks{
+    font-size: 20px;
+    border: none;
+  }
+
+  @media screen and (max-width: 768px) {
+    .table-mytasks{
+      overflow-x: auto;
+    }
+  }
+
+  @media screen and (max-width: 1500px) {
+    td.bt-group-mytasks{
+      padding-top: 25px;
+      padding-bottom: 35px;
+    }
+    #bt-approve-mytasks,
+    #bt-rejaect-mytasks,
+    #bt-delete-mytasks{
+      display: block;
+      width: 80%;
+      margin-bottom: 10px;
+    }
+    .edit-mytasks{
+      margin-left: 30%;
+    }
+  }

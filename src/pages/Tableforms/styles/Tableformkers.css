@@ -1,0 +1,14 @@
+.table-formkeys{
+    height: 48vh;
+    border-collapse: collapse;
+    overflow-x: auto;
+}
+.table-formkeys td {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+@media screen and (max-width: 768px) {
+    .table-formkeys{
+      overflow-x: auto;
+    }
+  }
